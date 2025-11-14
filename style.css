@@ -1,0 +1,40 @@
+body {
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+min-height: 100vh;
+padding: 20px;
+}
+        
+.contenedor-principal {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+        
+.card-ampliada {
+max-width: 800px; /* Más ancha */
+min-height: 500px; /* Más alta */
+}
+        
+.imagen-perfil {
+height: 100%;
+object-fit: cover;
+}
+        
+.seccion-info {
+padding: 2rem;
+}
+        
+.habilidad {
+transition: transform 0.3s ease;
+}
+        
+.habilidad:hover {
+transform: scale(1.05);
+}
+        
+.icono {
+width: 20px;
+height: 20px;
+margin-right: 8px;
+}
